@@ -156,9 +156,9 @@ h2{
     margin-left: 1.2%;
     margin-right: 1.2%;
 }
-/* 
-Media Query */
-@media(max-width: 1210px){
+/* Media Query */
+
+@media (min-width: 765px) and (max-width: 1055px){
     #title{
         text-align: center;
     }
@@ -167,8 +167,24 @@ Media Query */
         position: static;
         transform: rotate(0);
     }
-  .pricing-col-third{
+    .pricing-col-third{
         width: 50%;
         margin: auto;
     }
+}
+
+
+@media (max-width: 765px){
+    #title{
+        text-align: center;
+    }
+    
+    .iphone{
+        position: static;
+        transform: rotate(0);
+    }
+    .pricing-col-third{
+        margin: auto;
+    }
+
 }
