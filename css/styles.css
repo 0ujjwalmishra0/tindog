@@ -167,4 +167,8 @@ Media Query */
         position: static;
         transform: rotate(0);
     }
+  .pricing-col-third{
+        width: 50%;
+        margin: auto;
+    }
 }
